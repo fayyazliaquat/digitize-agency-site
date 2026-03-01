@@ -1,0 +1,5 @@
+/* Custom site styles (place overrides here). */
+/* Tailwind is loaded via CDN; this file is for site-specific styles. */
+
+/* Example small override to ensure consistent body font smoothing */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }

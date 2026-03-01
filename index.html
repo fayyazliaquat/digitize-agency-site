@@ -6,6 +6,7 @@
     <meta name="description" content="Hire Digitize for custom AI workflow automation and full stack web development services. We build intelligent B2B software to scale your business.">
     <title>Digitize | Custom AI Workflow Automation & Full Stack Development</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body id="home" class="bg-slate-900 text-slate-300 font-sans antialiased selection:bg-blue-500 selection:text-white">
 
@@ -66,7 +67,7 @@
         <div class="max-w-3xl mx-auto">
             <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Ready to Scale?</h2>
             <p class="text-slate-400 mb-10 text-lg">Let's discuss how custom AI and software can streamline your business operations.</p>
-            <button onclick="navigator.clipboard.writeText('hello@digitize.com.pk'); alert('Success! hello@digitize.com.pk has been copied to your clipboard.');" class="inline-block bg-white text-slate-900 font-bold py-4 px-10 rounded-lg hover:bg-gray-200 transition transform hover:scale-105 cursor-pointer">
+            <button onclick="copyEmail()" class="inline-block bg-white text-slate-900 font-bold py-4 px-10 rounded-lg hover:bg-gray-200 transition transform hover:scale-105 shadow-[0_0_15px_rgba(255,255,255,0.2)] cursor-pointer">
     Email Us: hello@digitize.com.pk
 </button>
         </div>
@@ -75,6 +76,10 @@
     <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
         <p>&copy; 2026 Digitize. All rights reserved.</p>
     </footer>
-
+<div id="toast" class="fixed bottom-5 right-5 bg-slate-800 border border-green-500 text-white px-6 py-4 rounded-lg shadow-2xl transform transition-all duration-300 translate-y-20 opacity-0 pointer-events-none z-50 flex items-center gap-3">
+        <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+        <span class="font-medium">Email copied to clipboard!</span>
+    </div>
+    <script src="assets/js/main.js" defer></script>
 </body>
 </html>
