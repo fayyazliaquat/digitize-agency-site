@@ -8,4 +8,7 @@ This repository contains a small marketing site. I reorganized assets into a sta
 
 Next steps you might want:
 - Add images to `assets/img/`
-- Add a build step (Tailwind CLI) if you want a production CSS bundle
+
+## Why no build step?
+
+The Tailwind CDN is perfectly optimized for this single-page marketing site — it's fast, lightweight, and requires zero build complexity. We're keeping the agency site as a lightning-fast brochure. All the heavy-lifting build-step energy is reserved for the React ledger application where it's actually needed.
